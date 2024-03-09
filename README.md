@@ -9,12 +9,10 @@ I'm hoping to expand this git with implementation of said magical stuff. Unfortu
 For context, this is maybe 10% of the entire LM module, and the module itself is just 20% of the semester, which I study part-time.
 
 # Computer Science syllabus - Turing Machine
-"Turing machines, first described by Alan Turing in Turing 1936–7, are simple abstract computational devices intended to help investigate the extent and limitations of what can be computed."[1](https://plato.stanford.edu/entries/turing-machine/)
+"Turing machines, first described by Alan Turing in Turing 1936–7, are simple abstract computational devices intended to help investigate the extent and limitations of what can be computed."[src:plato.stanford](https://plato.stanford.edu/entries/turing-machine/)
 
 TM can be defined as a tuple: 
-$$
-M = (Q, \Sigma, \Gamma, \delta, q_0, \Theta, A)
-$$
+$$M = (Q, \Sigma, \Gamma, \delta, q_0, \Theta, A)$$
 
 where:
 
