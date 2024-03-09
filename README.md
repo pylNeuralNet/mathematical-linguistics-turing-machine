@@ -40,7 +40,7 @@ The model needs to handle the following design issues:
 - writing the carry in the event of encountering $\Theta$ symbol
 
 My model is a DFA and consists of the following states:
-   // q0 - first encountered symbol: either [0-9] or theta. If [0-9], increments by 5 and transitions state to q1 (without carry) or q2 (with carry), if theta - moves head left in an attempt to find a [0-9]
+    // q0 - first encountered symbol: either [0-9] or theta. If [0-9], increments by 5 and transitions state to q1 (without carry) or q2 (with carry), if theta - moves head left in an attempt to find a [0-9]
 
     // q1 - encountered 1 digit by far. writes back the encountered digit because there was no carry. Moves to an analogous state that means 2 digits have been read - one for carry and one without carry (q3/q4), if theta - no more action is taken (-,-,-) because the number has been incremented successfuly and the number has less than 3 digits
 
