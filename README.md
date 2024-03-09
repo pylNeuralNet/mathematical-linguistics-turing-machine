@@ -23,7 +23,7 @@ $\Theta$ is a symbol sequence termination
 $q_0$ initial state $q_0 \in Q$
 $\delta$ is the transition function, a mapping from Q×Γ to Q×Γ×D where D is {L,R} representing the direction (left or right) to move the tape head:
 
-$$\delta (q, a) = Q \times \Sigma \to Q \times \Gamma \times \lbraceL,R\rbrace$$
+$$\delta (q, a) = Q \times \Sigma \to Q \times \Gamma \times \lbrace L,R\rbrace$$
 
 ### Classic use cases of a TM
 - Recognizing a formal language
