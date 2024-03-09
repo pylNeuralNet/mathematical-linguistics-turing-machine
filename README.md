@@ -9,7 +9,7 @@ I'm hoping to expand this git with implementation of said magical stuff. Unfortu
 For context, this is maybe 10% of the entire LM module, and the module itself is just 20% of the semester, which I study part-time.
 
 # Computer Science syllabus - Turing Machine
-"Turing machines, first described by Alan Turing in Turing 1936–7, are simple abstract computational devices intended to help investigate the extent and limitations of what can be computed."[src:plato.stanford](https://plato.stanford.edu/entries/turing-machine/)
+"Turing machines, first described by Alan Turing in Turing 1936–7, are simple abstract computational devices intended to help investigate the extent and limitations of what can be computed." [src:plato.stanford](https://plato.stanford.edu/entries/turing-machine/)
 
 TM can be defined as a tuple: 
 $$M = (Q, \Sigma, \Gamma, \delta, q_0, \Theta, A)$$
@@ -18,12 +18,12 @@ where:
 
 $Q$ is a finite set of states.
 $\Sigma$ is a finite set of input symbols.
-$\Gamma$ is a finite set of tape symbols (tape alphabeth), $\Sigma \subset \Gamma \setminus \{\Theta\}$
+$\Gamma$ is a finite set of tape symbols (tape alphabeth), $\Sigma \subset \Gamma \setminus \lbrace\Theta\rbrace$
 $\Theta$ is a symbol sequence termination
 $q_0$ initial state $q_0 \in Q$
 $\delta$ is the transition function, a mapping from Q×Γ to Q×Γ×D where D is {L,R} representing the direction (left or right) to move the tape head:
 
-$$\delta (q, a) = Q \times \Sigma \to Q \times \Gamma \times \{L,R\}$$
+$$\delta (q, a) = Q \times \Sigma \to Q \times \Gamma \times \lbraceL,R\rbrace$$
 
 ### Classic use cases of a TM
 - Recognizing a formal language
